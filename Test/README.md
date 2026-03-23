@@ -1,5 +1,4 @@
 # Nora
-<<<<<<< HEAD
 
 Nora is a Python-first foundation for a large Discord bot with:
 
@@ -80,6 +79,3 @@ Discord guilds do not expose a true server tick rate value the way a game server
 - Guild statistics
 
 If you want actual game server tick rate, we can add dedicated integrations for Minecraft, FiveM, Source, Rust, or other servers later.
-=======
-DiscordBot
->>>>>>> 068e2db13a53b10e58c2d08e45100388c5630ec5
