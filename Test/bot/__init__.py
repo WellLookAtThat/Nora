@@ -1,0 +1,1 @@
+"""Advanced Discord bot package."""

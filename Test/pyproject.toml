@@ -1,0 +1,23 @@
+[project]
+name = "nora"
+version = "0.1.0"
+description = "A modular Discord bot with music, status reporting, and resilient service fallbacks."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "discord.py[voice]>=2.5.0,<3.0.0",
+  "python-dotenv>=1.0.1,<2.0.0",
+  "psutil>=7.0.0,<8.0.0",
+  "PyNaCl>=1.5.0,<2.0.0",
+  "yt-dlp>=2025.1.26",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+include = ["bot*"]
